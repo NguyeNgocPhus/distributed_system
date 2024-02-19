@@ -47,6 +47,7 @@ internal sealed class ExceptionHandlingMiddleware : IMiddleware
     private static int GetStatusCode(Exception exception) =>
         exception switch
         {
+            
             ProductException.ProductFieldException => StatusCodes.Status406NotAcceptable, // Should be remove later
             BadRequestException => StatusCodes.Status400BadRequest,
             NotFoundException => StatusCodes.Status404NotFound,

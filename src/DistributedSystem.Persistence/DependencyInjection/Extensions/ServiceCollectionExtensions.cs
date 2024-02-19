@@ -19,8 +19,8 @@ public static class ServiceCollectionExtensions
         services.AddDbContextPool<DbContext, ApplicationDbContext>((provider, builder) =>
         {
             // Interceptor
-            // var outboxInterceptor = provider.GetService<ConvertDomainEventsToOutboxMessagesInterceptor>();
-            // var auditableInterceptor = provider.GetService<UpdateAuditableEntitiesInterceptor>();
+            var outboxInterceptor = provider.GetService<ConvertDomainEventsToOutboxMessagesInterceptor>();
+            var auditableInterceptor = provider.GetService<UpdateAuditableEntitiesInterceptor>();
 
             var configuration = provider.GetRequiredService<IConfiguration>();
             var options = provider.GetRequiredService<IOptionsMonitor<SqlServerRetryOptions>>();
@@ -28,12 +28,13 @@ public static class ServiceCollectionExtensions
             #region ============== SQL-SERVER-STRATEGY-1 ==============
 
             builder
-            .EnableDetailedErrors(true)
-            .EnableSensitiveDataLogging(true)
-            .UseLazyLoadingProxies(true) // => If UseLazyLoadingProxies, all of the navigation fields should be VIRTUAL
-            .UseSqlServer(
-                connectionString: configuration.GetConnectionString("ConnectionStrings"),
-                sqlServerOptionsAction: optionsBuilder
+                .EnableDetailedErrors(true)
+                .EnableSensitiveDataLogging(true)
+                .UseLazyLoadingProxies(
+                    true) // => If UseLazyLoadingProxies, all of the navigation fields should be VIRTUAL
+                .UseSqlServer(
+                    connectionString: configuration.GetConnectionString("ConnectionStrings"),
+                    sqlServerOptionsAction: optionsBuilder
                         => optionsBuilder.ExecutionStrategy(
                                 dependencies => new SqlServerRetryingExecutionStrategy(
                                     dependencies: dependencies,
@@ -41,9 +42,9 @@ public static class ServiceCollectionExtensions
                                     maxRetryDelay: options.CurrentValue.MaxRetryDelay,
                                     errorNumbersToAdd: options.CurrentValue.ErrorNumbersToAdd))
                             .MigrationsAssembly(typeof(ApplicationDbContext).Assembly.GetName().Name))
-            // .AddInterceptors(outboxInterceptor,
-            //         auditableInterceptor)
-            ;
+                .AddInterceptors(outboxInterceptor,
+                    auditableInterceptor)
+                ;
 
             #endregion ============== SQL-SERVER-STRATEGY-1 ==============
 
@@ -60,17 +61,14 @@ public static class ServiceCollectionExtensions
             //            .MigrationsAssembly(typeof(ApplicationDbContext).Assembly.GetName().Name));
 
             #endregion ============== SQL-SERVER-STRATEGY-2 ==============
-
-            
-
         });
 
         services.AddIdentityCore<AppUser>(opt =>
-        {
-            opt.Lockout.AllowedForNewUsers = true; // Default true
-            opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2); // Default 5
-            opt.Lockout.MaxFailedAccessAttempts = 3; // Default 5
-        })
+            {
+                opt.Lockout.AllowedForNewUsers = true; // Default true
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2); // Default 5
+                opt.Lockout.MaxFailedAccessAttempts = 3; // Default 5
+            })
             .AddRoles<AppRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -91,8 +89,8 @@ public static class ServiceCollectionExtensions
 
     public static void AddInterceptorDbContext(this IServiceCollection services)
     {
-        // services.AddSingleton<ConvertDomainEventsToOutboxMessagesInterceptor>();
-        // services.AddSingleton<UpdateAuditableEntitiesInterceptor>();
+        services.AddSingleton<ConvertDomainEventsToOutboxMessagesInterceptor>();
+        services.AddSingleton<UpdateAuditableEntitiesInterceptor>();
     }
 
     public static void AddRepositoryBaseConfiguration(this IServiceCollection services)
@@ -102,10 +100,10 @@ public static class ServiceCollectionExtensions
 
         services.AddTransient(typeof(IUnitOfWorkDbContext<>), typeof(EFUnitOfWorkDbContext<>));
         services.AddTransient(typeof(IRepositoryBaseDbContext<,,>), typeof(RepositoryBaseDbContext<,,>));
-
     }
 
-    public static OptionsBuilder<SqlServerRetryOptions> ConfigureSqlServerRetryOptions(this IServiceCollection services, IConfigurationSection section)
+    public static OptionsBuilder<SqlServerRetryOptions> ConfigureSqlServerRetryOptions(this IServiceCollection services,
+        IConfigurationSection section)
         => services
             .AddOptions<SqlServerRetryOptions>()
             .Bind(section)
