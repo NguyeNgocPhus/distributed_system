@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Abstractions\.DS_Store" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.15" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+      <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.15" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DistributedSystem.Contract\DistributedSystem.Contract.csproj" />
+    </ItemGroup>
+
+</Project>
