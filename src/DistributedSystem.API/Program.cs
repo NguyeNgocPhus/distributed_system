@@ -43,6 +43,8 @@ builder.Services
 // Infrastructure Layer
 builder.Services.AddServiceInfrastructure(builder.Configuration);
 builder.Services.AddRedisServiceInfrastructure(builder.Configuration);
+builder.Services.AddMasstransitRabbitMQInfrastructure(builder.Configuration);
+builder.Services.AddQuartzInfrastructure();
 // API Layer
 builder.Services.AddJwtAuthenticationAPI(builder.Configuration);
 

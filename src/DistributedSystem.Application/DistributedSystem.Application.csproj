@@ -22,6 +22,7 @@
     <ItemGroup>
       <ProjectReference Include="..\DistributedSystem.Contract\DistributedSystem.Contract.csproj" />
       <ProjectReference Include="..\DistributedSystem.Domain\DistributedSystem.Domain.csproj" />
+      <ProjectReference Include="..\DistributedSystem.Persistence\DistributedSystem.Persistence.csproj" />
     </ItemGroup>
 
 </Project>
