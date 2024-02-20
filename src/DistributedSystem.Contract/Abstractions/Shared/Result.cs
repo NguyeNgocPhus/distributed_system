@@ -2,7 +2,7 @@
 
 public class Result
 {
-    protected internal Result(bool isSuccess, Error error)
+    protected Result(bool isSuccess, Error error)
     {
         if (isSuccess && error != Error.None)
         {

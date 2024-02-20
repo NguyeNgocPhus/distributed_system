@@ -21,29 +21,6 @@ builder.Logging
     .AddSerilog();
 
 builder.Host.UseSerilog();
-
-builder.Services.AddInfrastructureService(builder.Configuration);
-builder.Services.AddRedisService(builder.Configuration);
-
-builder.Services.AddJwtAuthentication(builder.Configuration);
-
-//builder
-//    .Services
-//    .AddControllers()
-//    .AddApplicationPart(DistributedSystem.Presentation.AssemblyReference.Assembly);
-
-builder.Services.AddConfigureMediatR();
-builder.Services.AddConfigureAutoMapper();
-
-// Add Middleware => Remember using middleware
-builder.Services.AddTransient<ExceptionHandlingMiddleware>();
-
-// Configure Options and SQL => Remember mapcarter
-builder.Services.AddInterceptorDbContext();
-builder.Services.ConfigureSqlServerRetryOptions(builder.Configuration.GetSection(nameof(SqlServerRetryOptions)));
-builder.Services.AddSqlConfiguration();
-builder.Services.AddRepositoryBaseConfiguration();
-
 // Add Carter module
 builder.Services.AddCarter();
 
@@ -52,7 +29,8 @@ builder.Services
     .AddSwaggerGenNewtonsoftSupport()
     .AddFluentValidationRulesToSwagger()
     .AddEndpointsApiExplorer()
-    .AddSwagger();
+    .AddSwaggerAPI();
+
 
 builder.Services
     .AddApiVersioning(options => options.ReportApiVersions = true)
@@ -61,6 +39,34 @@ builder.Services
         options.GroupNameFormat = "'v'VVV";
         options.SubstituteApiVersionInUrl = true;
     });
+
+// Infrastructure Layer
+builder.Services.AddServiceInfrastructure(builder.Configuration);
+builder.Services.AddRedisServiceInfrastructure(builder.Configuration);
+// API Layer
+builder.Services.AddJwtAuthenticationAPI(builder.Configuration);
+
+//builder
+//    .Services
+//    .AddControllers()
+//    .AddApplicationPart(DistributedSystem.Presentation.AssemblyReference.Assembly);
+
+
+// Application Layer
+builder.Services.AddMediatRApplication();
+builder.Services.AddAutoMapperApplication();
+
+// Add Middleware => Remember using middleware
+builder.Services.AddTransient<ExceptionHandlingMiddleware>();
+
+// Persistence Layer
+builder.Services.AddInterceptorPersistence();
+builder.Services.ConfigureSqlServerRetryOptionsPersistence(builder.Configuration.GetSection(nameof(SqlServerRetryOptions)));
+builder.Services.AddSqlServerPersistence();
+builder.Services.AddRepositoryPersistence();
+
+
+
 
 var app = builder.Build();
 
@@ -79,7 +85,7 @@ app.MapCarter();
 
 // Configure the HTTP request pipeline. 
 if (builder.Environment.IsDevelopment() || builder.Environment.IsStaging())
-    app.ConfigureSwagger(); // => After MapCarter => Show Version
+    app.UseSwaggerAPI(); // => After MapCarter => Show Version
 
 try
 {

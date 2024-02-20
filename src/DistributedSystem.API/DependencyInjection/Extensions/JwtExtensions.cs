@@ -13,7 +13,7 @@ namespace DistributedSystem.API.DependencyInjection.Extensions;
 
 public static class JwtExtensions
 {
-    public static void AddJwtAuthentication(this IServiceCollection service, IConfiguration configuration)
+    public static void AddJwtAuthenticationAPI(this IServiceCollection service, IConfiguration configuration)
     {
         service.AddAuthentication(options =>
         {

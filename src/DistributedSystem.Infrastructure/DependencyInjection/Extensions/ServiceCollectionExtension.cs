@@ -9,13 +9,13 @@ namespace DistributedSystem.Infrastructure.DependencyInjection.Extensions;
 
 public static class ServiceCollectionExtension
 {
-    public static void AddInfrastructureService(this IServiceCollection service, IConfiguration configuration)
+    public static void AddServiceInfrastructure(this IServiceCollection service, IConfiguration configuration)
     {
         service.AddScoped<IJwtTokenService, JwtTokenService>();
         service.AddScoped<ICacheService, CacheService>();
     }
 
-    public static void AddRedisService(this IServiceCollection services, IConfiguration configuration)
+    public static void AddRedisServiceInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddStackExchangeRedisCache(redisOptions =>
         {
