@@ -17,11 +17,11 @@ public class ProductApi : ApiEndpoint, ICarterModule
         var group1 = app.NewVersionedApi("products")
             .MapGroup(BaseUrl).HasApiVersion(1);
 
-        group1.MapPost(string.Empty, CreateProductsV1);
-        group1.MapGet(string.Empty, GetProductsV1);
-        group1.MapGet("{productId}", GetProductsByIdV1);
-        group1.MapDelete("{productId}", DeleteProductsV1);
-        group1.MapPut("{productId}", UpdateProductsV1);
+        group1.MapPost(string.Empty, CreateProductsV1).RequireAuthorization();
+        group1.MapGet(string.Empty, GetProductsV1).RequireAuthorization();
+        group1.MapGet("{productId}", GetProductsByIdV1).RequireAuthorization();
+        group1.MapDelete("{productId}", DeleteProductsV1).RequireAuthorization();
+        group1.MapPut("{productId}", UpdateProductsV1).RequireAuthorization();
     }
 
     #region ====== version 1 ======

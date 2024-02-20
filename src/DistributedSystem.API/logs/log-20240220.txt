@@ -1,0 +1,587 @@
+2024-02-20 00:07:27.046 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 00:07:27.097 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 00:07:27.170 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 00:08:23.171 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 00:08:23.222 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 00:08:23.921 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 00:09:31.099 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 00:09:31.150 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 00:10:17.696 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 00:10:17.745 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 14:14:38.235 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.343 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.344 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.345 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.345 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.346 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.346 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:14:38.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:19.998 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.139 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.141 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.141 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.141 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.142 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.142 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.143 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.144 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.144 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.144 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.144 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.145 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.145 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.145 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.145 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.145 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:36:20.145 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 14:39:34.584 +07:00 [ERR] The method or operation is not implemented.
+System.NotImplementedException: The method or operation is not implemented.
+   at DistributedSystem.Application.UseCases.Commands.Product.CreateProductCommandHandler.Handle(CreateProductCommand request, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/UseCases/Commands/Product/CreateProductCommandHandler.cs:line 11
+   at DistributedSystem.Application.Behaviors.PerformancePipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/PerformancePipelineBehavior.cs:line 23
+   at DistributedSystem.Application.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/ValidationPipelineBehavior.cs:line 23
+   at Presentation.APIs.Products.ProductApi.CreateProductsV1(ISender sender, CreateProductCommand CreateProduct) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Presentation/APIs/Products/ProductApi.cs:line 31
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass90_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 14:40:36.870 +07:00 [ERR] The method or operation is not implemented.
+System.NotImplementedException: The method or operation is not implemented.
+   at DistributedSystem.Application.UseCases.Commands.Product.CreateProductCommandHandler.Handle(CreateProductCommand request, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/UseCases/Commands/Product/CreateProductCommandHandler.cs:line 11
+   at DistributedSystem.Application.Behaviors.PerformancePipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/PerformancePipelineBehavior.cs:line 23
+   at DistributedSystem.Application.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/ValidationPipelineBehavior.cs:line 23
+   at Presentation.APIs.Products.ProductApi.CreateProductsV1(ISender sender, CreateProductCommand CreateProduct) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Presentation/APIs/Products/ProductApi.cs:line 31
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass90_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 15:29:17.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.402 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.402 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.402 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.403 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.404 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.405 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.405 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.405 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.405 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.405 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.406 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.408 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.408 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.408 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.408 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.408 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:29:17.408 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:30:57.571 +07:00 [ERR] Endpoint HTTP: POST /api/v{version:apiVersion}/auth/login => AuthenticationV1 contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+System.InvalidOperationException: Endpoint HTTP: POST /api/v{version:apiVersion}/auth/login => AuthenticationV1 contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 15:33:00.212 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.307 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.308 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.308 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.310 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.310 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.313 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.314 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.315 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:00.315 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:33:08.896 +07:00 [ERR] Endpoint HTTP: POST /api/v{version:apiVersion}/auth/login => AuthenticationV1 contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+System.InvalidOperationException: Endpoint HTTP: POST /api/v{version:apiVersion}/auth/login => AuthenticationV1 contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 15:35:29.966 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.062 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.062 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.062 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.063 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.064 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.066 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.068 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.068 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.068 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.068 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.068 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:30.068 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:35:42.497 +07:00 [ERR] Endpoint HTTP: POST /api/v{version:apiVersion}/auth/login => AuthenticationV1 contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+System.InvalidOperationException: Endpoint HTTP: POST /api/v{version:apiVersion}/auth/login => AuthenticationV1 contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 15:37:41.484 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.582 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.582 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.582 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.584 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.585 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.586 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.586 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.586 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.586 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.586 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.588 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.588 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.588 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.588 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.588 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.589 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.589 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.589 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.589 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.589 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:37:41.589 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:38:00.658 +07:00 [ERR] The method or operation is not implemented.
+System.NotImplementedException: The method or operation is not implemented.
+   at DistributedSystem.Application.UseCases.Commands.Identity.LoginCommandHandler.Handle(Login request, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/UseCases/Commands/Identity/LoginCommandHandler.cs:line 11
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DistributedSystem.Application.Behaviors.PerformancePipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/PerformancePipelineBehavior.cs:line 23
+   at DistributedSystem.Application.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/ValidationPipelineBehavior.cs:line 23
+   at Presentation.APIs.Identity.AuthApi.AuthenticationV1(ISender sender, Login login) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Presentation/APIs/Identity/AuthApi.cs:line 25
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass90_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 15:42:58.543 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.632 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.632 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.632 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.634 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.634 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.635 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.635 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.635 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.635 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.636 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.637 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.638 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.638 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.638 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.638 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.639 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.639 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.639 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.639 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.640 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:42:58.640 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.403 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.492 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.492 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.492 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.494 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.495 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.496 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.496 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.496 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.496 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.496 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.497 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.498 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.499 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.499 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:26.499 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 15:46:58.230 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 15:46:58.286 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 16:05:46.077 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.177 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.178 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.178 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.179 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.180 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.181 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.181 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.181 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.181 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.181 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.183 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.184 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.184 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.184 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.184 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.185 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.185 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.185 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.185 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.185 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:05:46.185 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:06:35.617 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 16:06:35.663 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 16:22:14.909 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.015 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.015 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.015 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.016 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.017 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.018 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.018 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.018 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.018 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.018 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.020 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.021 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.022 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.022 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.022 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.022 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:22:15.022 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:14.961 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.063 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.063 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.063 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.065 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.066 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.067 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.069 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.069 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.069 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.069 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.069 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.070 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.070 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.070 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.070 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.070 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.070 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.071 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.071 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.071 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:26:15.071 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:27:40.115 +07:00 [ERR] Request token invalid!
+DistributedSystem.Domain.Exceptions.IdentityException+TokenException: Request token invalid!
+   at DistributedSystem.Application.UseCases.Commands.Identity.RefreshTokenCommandHandler.Handle(Token request, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/UseCases/Commands/Identity/RefreshTokenCommandHandler.cs:line 32
+   at DistributedSystem.Application.Behaviors.PerformancePipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/PerformancePipelineBehavior.cs:line 23
+   at DistributedSystem.Application.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/ValidationPipelineBehavior.cs:line 23
+   at Presentation.APIs.Identity.TokenApi.RefreshV1(ISender sender, HttpContext httpContext, Token token) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Presentation/APIs/Identity/TokenApi.cs:line 29
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass90_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 16:28:14.787 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 16:28:14.832 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 16:30:16.695 +07:00 [ERR] No service for type 'DistributedSystem.API.Attributes.CustomJwtBearerEvents' has been registered.
+System.InvalidOperationException: No service for type 'DistributedSystem.API.Attributes.CustomJwtBearerEvents' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeEventsAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18
+2024-02-20 16:30:55.954 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.054 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.055 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.055 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.056 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.057 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.058 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.058 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.058 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.058 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.058 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.059 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.060 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.061 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.061 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.061 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.061 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:30:56.061 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.091 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.188 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.188 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.189 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.190 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.191 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.192 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.192 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.192 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.192 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.192 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.193 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.194 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.194 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.194 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.194 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:09.195 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:32:41.192 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 16:32:41.250 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 16:35:21.312 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.404 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.404 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.404 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.405 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.406 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.407 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.409 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.409 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.409 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.409 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.409 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:35:21.410 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.241 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.344 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.344 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.345 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.346 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.348 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.350 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:38:48.353 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:39:29.896 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 16:39:29.954 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 16:39:30.692 +07:00 [WRN] Long Time Running - Request Details: CreateProductCommand (19121 milliseconds) {"Name":"macos","Price":1,"Description":"123123123","$type":"CreateProductCommand"}
+2024-02-20 16:44:37.363 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.469 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.470 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.470 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.471 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.472 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.473 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.473 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.473 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.473 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.473 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.475 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.475 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.475 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.476 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.477 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.477 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.477 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:44:37.477 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.261 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.346 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.347 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.349 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.349 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.351 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.352 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.353 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.353 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.354 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.355 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.355 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.355 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:46:42.355 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.639 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.726 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.726 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.726 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.728 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.728 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.729 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.729 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.729 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.729 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.729 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.731 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.731 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.732 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.733 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.733 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.733 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 16:49:58.733 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.391 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.501 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.502 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.502 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.503 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.504 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.505 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.505 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.505 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.505 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.505 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.507 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.508 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.508 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.508 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.508 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.509 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.509 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.509 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.509 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.509 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.509 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.510 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.510 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.510 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:00:49.510 +07:00 [WRN] ValidatorFactory is not provided. Please register FluentValidation.
+2024-02-20 17:01:36.967 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-02-20 17:01:37.022 +07:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-20 17:01:37.830 +07:00 [WRN] Long Time Running - Request Details: CreateProductCommand (12177 milliseconds) {"Name":"macos","Price":1,"Description":"123123123","$type":"CreateProductCommand"}
+2024-02-20 17:03:32.508 +07:00 [ERR] Request token invalid!
+DistributedSystem.Domain.Exceptions.IdentityException+TokenException: Request token invalid!
+   at DistributedSystem.Application.UseCases.Commands.Identity.RefreshTokenCommandHandler.Handle(Token request, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/UseCases/Commands/Identity/RefreshTokenCommandHandler.cs:line 32
+   at DistributedSystem.Application.Behaviors.PerformancePipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/PerformancePipelineBehavior.cs:line 23
+   at DistributedSystem.Application.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Application/Behaviors/ValidationPipelineBehavior.cs:line 23
+   at Presentation.APIs.Identity.TokenApi.RefreshV1(ISender sender, HttpContext httpContext, Token token) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.Presentation/APIs/Identity/TokenApi.cs:line 29
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass90_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DistributedSystem.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/phunn/Documents/Code/learn_to_leader/distributed_system/src/DistributedSystem.API/Middleware/ExceptionHandlingMiddleware.cs:line 18

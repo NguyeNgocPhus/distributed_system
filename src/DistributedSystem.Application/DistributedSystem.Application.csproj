@@ -8,7 +8,7 @@
 
     <ItemGroup>
       <Folder Include="DependencyInjection\Options\" />
-      <Folder Include="UseCases\" />
+      <Folder Include="UseCases\Events\" />
     </ItemGroup>
 
     <ItemGroup>

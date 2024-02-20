@@ -19,7 +19,7 @@ public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, Guid>
 
     public DbSet<AppUser> AppUses { get; set; }
     public DbSet<Action> Actions { get; set; }
-    public DbSet<JSType.Function> Functions { get; set; }
+    public DbSet<Function> Functions { get; set; }
     public DbSet<ActionInFunction> ActionInFunctions { get; set; }
     public DbSet<Permission> Permissions { get; set; }
 

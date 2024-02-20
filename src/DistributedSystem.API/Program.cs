@@ -5,6 +5,7 @@ using DistributedSystem.Application.DependencyInjection.Extensions;
 using DistributedSystem.Persistence.DependencyInjection.Extensions;
 using DistributedSystem.Persistence.DependencyInjection.Options;
 using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
+using DistributedSystem.Infrastructure.DependencyInjection.Extensions;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,11 @@ builder.Logging
     .AddSerilog();
 
 builder.Host.UseSerilog();
+
+builder.Services.AddInfrastructureService(builder.Configuration);
+builder.Services.AddRedisService(builder.Configuration);
+
+builder.Services.AddJwtAuthentication(builder.Configuration);
 
 //builder
 //    .Services
@@ -61,14 +67,15 @@ var app = builder.Build();
 // Using middleware
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-// Add API Endpoint with carter module
-app.MapCarter();
-
 //app.UseHttpsRedirection();
 
-//app.UseAuthorization();
+app.UseAuthentication(); // This need to be added before UseAuthorization
+app.UseAuthorization();
 
 //app.MapControllers();
+
+// Add API Endpoint with carter module
+app.MapCarter();
 
 // Configure the HTTP request pipeline. 
 if (builder.Environment.IsDevelopment() || builder.Environment.IsStaging())
