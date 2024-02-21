@@ -1,6 +1,7 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
 using DistributedSystem.Domain.Entities.Identity;
 using DistributedSystem.Domain.Entities;
+using DistributedSystem.Persistence.Outbox;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Action = DistributedSystem.Domain.Entities.Identity.Action;
@@ -22,6 +23,6 @@ public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     public DbSet<Function> Functions { get; set; }
     public DbSet<ActionInFunction> ActionInFunctions { get; set; }
     public DbSet<Permission> Permissions { get; set; }
-
+    public DbSet<OutboxMessage> OutboxMessages { get; set; }
     public DbSet<Product> Products { get; set; }
 }

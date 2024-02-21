@@ -28,5 +28,11 @@
       <EmbeddedResource Remove="DependencyInjection\Options\**" />
     </ItemGroup>
 
+  
+
+    <ItemGroup>
+      <Folder Include="Consumer\MessageBus\Consumers\" />
+    </ItemGroup>
+
 
 </Project>

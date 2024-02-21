@@ -7,6 +7,7 @@ public class OutboxMessage
     public DateTime OccurredOnUtc { get; set; }
     public string Type { get; set; }
     public string Content { get; set; }
-    
+    public DateTime? ProcessOnUtc { get; set; }
+    public string? Error { get; set; }
    
 }

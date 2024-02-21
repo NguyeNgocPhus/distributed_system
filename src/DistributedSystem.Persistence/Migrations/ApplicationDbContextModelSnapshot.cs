@@ -282,7 +282,13 @@ namespace DistributedSystem.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Error")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("OccurredOnUtc")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ProcessOnUtc")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Type")

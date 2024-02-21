@@ -44,7 +44,9 @@ builder.Services
 builder.Services.AddServiceInfrastructure(builder.Configuration);
 builder.Services.AddRedisServiceInfrastructure(builder.Configuration);
 builder.Services.AddMasstransitRabbitMQInfrastructure(builder.Configuration);
+builder.Services.AddMediatRInfrastructure();
 builder.Services.AddQuartzInfrastructure();
+
 // API Layer
 builder.Services.AddJwtAuthenticationAPI(builder.Configuration);
 
@@ -62,6 +64,9 @@ builder.Services.AddAutoMapperApplication();
 builder.Services.AddTransient<ExceptionHandlingMiddleware>();
 
 // Persistence Layer
+//dotnet ef database update --project DistributedSystem.Persistence  --startup-project DistributedSystem.Api --context ApplicationDbContext
+//dotnet ef migrations add "Add_Process_on_utc" --project DistributedSystem.Persistence --context ApplicationDbContext --startup-project DistributedSystem.Api --output-dir Migrations 
+
 builder.Services.AddInterceptorPersistence();
 builder.Services.ConfigureSqlServerRetryOptionsPersistence(builder.Configuration.GetSection(nameof(SqlServerRetryOptions)));
 builder.Services.AddSqlServerPersistence();

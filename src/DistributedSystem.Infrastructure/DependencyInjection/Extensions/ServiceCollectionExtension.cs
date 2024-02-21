@@ -1,7 +1,6 @@
 using System.Reflection;
 using DistributedSystem.Application.Abstractions;
 using DistributedSystem.Contract.JsonConverters;
-using DistributedSystem.Infrastructure.Authentication;
 using DistributedSystem.Infrastructure.Authentication.Services;
 using DistributedSystem.Infrastructure.BackgroundJob;
 using DistributedSystem.Infrastructure.Caching.Services;
@@ -112,12 +111,18 @@ public static class ServiceCollectionExtension
                         trigger.ForJob(jobKey)
                             .WithSimpleSchedule(
                                 schedule =>
-                                    schedule.WithIntervalInSeconds(100)
+                                    schedule.WithIntervalInSeconds(1)
                                         .RepeatForever()));
 
             configure.UseMicrosoftDependencyInjectionJobFactory();
         });
 
         services.AddQuartzHostedService();
+    }
+
+    public static void AddMediatRInfrastructure(this IServiceCollection services)
+    {
+        services.AddMediatR(cfg =>
+            cfg.RegisterServicesFromAssembly(AssemblyReference.Assembly));
     }
 }

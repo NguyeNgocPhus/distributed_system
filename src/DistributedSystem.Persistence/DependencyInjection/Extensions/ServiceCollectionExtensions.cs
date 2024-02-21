@@ -26,7 +26,6 @@ public static class ServiceCollectionExtensions
             var options = provider.GetRequiredService<IOptionsMonitor<SqlServerRetryOptions>>();
 
             #region ============== SQL-SERVER-STRATEGY-1 ==============
-
             builder
                 .EnableDetailedErrors(true)
                 .EnableSensitiveDataLogging(true)
