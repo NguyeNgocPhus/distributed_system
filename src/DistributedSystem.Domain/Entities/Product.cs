@@ -20,7 +20,7 @@ public class Product : AggregateRoot<Guid>, IAuditableEntity
         product.RaiseDomainEvent(new Contract.Services.V1.Product.DomainEvent.ProductCreated(Guid.NewGuid(), product.Id,
             product.Name, product.Price,
             product.Description
-            ));
+        ));
 
         return product;
     }
@@ -42,9 +42,13 @@ public class Product : AggregateRoot<Guid>, IAuditableEntity
         Price = price;
         Description = description;
 
-        RaiseDomainEvent(new Contract.Services.V1.Product.DomainEvent.ProductUpdated(Guid.NewGuid(), Id, name, price, description));
+        RaiseDomainEvent(
+            new Contract.Services.V1.Product.DomainEvent.ProductUpdated(Guid.NewGuid(), Id, name, price, description));
     }
 
     public void Delete()
-        => RaiseDomainEvent(new Contract.Services.V1.Product.DomainEvent.ProductDeleted(Guid.NewGuid(), Id));
+    {
+        IsDeleted = true;
+        RaiseDomainEvent(new Contract.Services.V1.Product.DomainEvent.ProductDeleted(Guid.NewGuid(), Id));
+    }
 }

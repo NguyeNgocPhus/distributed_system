@@ -27,7 +27,7 @@ public class ProcessOutboxMessageJob : IJob
             .OrderBy(x => x.OccurredOnUtc)
             .Take(20)
             .ToListAsync();
-
+        
         foreach (var outboxMessage in outboxMessages)
         {
             try
@@ -67,13 +67,13 @@ public class ProcessOutboxMessageJob : IJob
                 
                 }
                 outboxMessage.ProcessOnUtc = DateTime.Now;
-
+        
             }
             catch (Exception e)
             {
                 outboxMessage.Error = e.Message;
             }
-
+        
         }
 
         await _dbContext.SaveChangesAsync();
