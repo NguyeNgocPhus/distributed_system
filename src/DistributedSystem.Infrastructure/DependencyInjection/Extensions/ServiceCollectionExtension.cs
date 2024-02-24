@@ -4,6 +4,8 @@ using DistributedSystem.Contract.JsonConverters;
 using DistributedSystem.Infrastructure.Authentication.Services;
 using DistributedSystem.Infrastructure.BackgroundJob;
 using DistributedSystem.Infrastructure.Caching.Services;
+using DistributedSystem.Infrastructure.Consumer.Abstractions.Repositories;
+using DistributedSystem.Infrastructure.Consumer.Repositories;
 using DistributedSystem.Infrastructure.DependencyInjection.Options;
 using DistributedSystem.Infrastructure.PipeObservers;
 using MassTransit;
@@ -20,6 +22,8 @@ public static class ServiceCollectionExtension
     {
         service.AddScoped<IJwtTokenService, JwtTokenService>();
         service.AddScoped<ICacheService, CacheService>();
+        service.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
+        
     }
 
     public static void AddRedisServiceInfrastructure(this IServiceCollection services, IConfiguration configuration)
