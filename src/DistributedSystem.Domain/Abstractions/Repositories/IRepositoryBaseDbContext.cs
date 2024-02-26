@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using DistributedSystem.Domain.Abstractions.Entities;
 
 namespace DistributedSystem.Domain.Abstractions.Repositories;
 
 public interface IRepositoryBaseDbContext<TContext, TEntity, in TKey>
     where TContext : DbContext
-    where TEntity : class // => In implementation should be Entity<TKey>
+    where TEntity : Entity<TKey> // => In implementation should be Entity<TKey>
 {
     Task<TEntity> FindByIdAsync(TKey id, CancellationToken cancellationToken = default, params Expression<Func<TEntity, object>>[] includeProperties);
 
