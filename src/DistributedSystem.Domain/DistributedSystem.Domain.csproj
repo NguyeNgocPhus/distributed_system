@@ -11,13 +11,19 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.15" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+      <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="8.0.0" />
       <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.15" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\DistributedSystem.Contract\DistributedSystem.Contract.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Utilities\" />
     </ItemGroup>
 
 </Project>
